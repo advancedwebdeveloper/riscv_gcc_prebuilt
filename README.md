@@ -1,10 +1,12 @@
 # riscv_gcc_prebuilt
 
-Prebuilt RISC-V GCC toolchains.
+Prebuilt RISC-V GCC toolchains: `risc32-unknown-elf`
 
 The toolchain were build according to the instructions on the [official RISC-V GNU Compiler Toolchain page](https://github.com/riscv/riscv-gnu-toolchain)
 using Ubuntu 20.04 LTS on a 64-bit x86 machine (actually on Ubuntu on Windows). The compressed toolchains are located in
 the [data](https://github.com/stnolting/riscv_gcc_prebuilt/tree/master/data) folder.
+
+These prebuilt toolchain are used in the [NEORV32 Processor](https://github.com/stnolting/neorv32) project.
 
 
 ## Available Toolchains
