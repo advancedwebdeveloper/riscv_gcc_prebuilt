@@ -9,15 +9,16 @@ the [data](https://github.com/stnolting/riscv_gcc_prebuilt/tree/master/data) fol
 
 ## Available Toolchains
 
-| File | GCC | march | mabi |
-|:-----|:---:|:-----:|:----:|
+| File* | GCC | march | mabi |
+|:------|:---:|:-----:|:----:|
 | [risc32-unknown-elf.gcc-9.2.0.rv32i.ilp32.tar.gz](https://github.com/stnolting/riscv_gcc_prebuilt/raw/master/data/risc32-unknown-elf.gcc-9.2.0.rv32i.ilp32.tar.gz)   | `9.2.0` | `rv32i` | `ilp32` |
 | [risc32-unknown-elf.gcc-9.2.0.rv32e.ilp32e.tar.gz](https://github.com/stnolting/riscv_gcc_prebuilt/raw/master/data/risc32-unknown-elf.gcc-9.2.0.rv32e.ilp32e.tar.gz) | `9.2.0` | `rv32e` | `ilp32e` 
 
+*) The links will take a moment to launch.
 
 ### Installation
 
-Download the archieve of choice, unpack it and place the content into a folder on your system (like `/opt/riscv`).
+Download the archive of choice, unpack it and place the content into a folder on your system (like `/opt/riscv`).
 Then add the toolchain's `bin` folder to your system's `PATH` environment variable (or add this line to your `.bashrc` if applicable):
 
     $ export PATH=$PATH:/opt/riscv/bin
