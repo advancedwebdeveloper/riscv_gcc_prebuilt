@@ -1,6 +1,6 @@
 # riscv_gcc_prebuilt
 
-Prebuilt RISC-V GCC toolchains: `risc32-unknown-elf`
+Prebuilt RISC-V GCC toolchains: `riscv32-unknown-elf`
 
 The toolchain were build according to the instructions on the [official RISC-V GNU Compiler Toolchain page](https://github.com/riscv/riscv-gnu-toolchain)
 using Ubuntu 20.04 LTS on a 64-bit x86 machine (actually on Ubuntu on Windows). The compressed toolchains are located in
@@ -13,8 +13,8 @@ These prebuilt toolchain are used in the [NEORV32 Processor](https://github.com/
 
 | File* | GCC | march | mabi |
 |:------|:---:|:-----:|:----:|
-| [risc32-unknown-elf.gcc-9.2.0.rv32i.ilp32.tar.gz](https://github.com/stnolting/riscv_gcc_prebuilt/raw/master/data/risc32-unknown-elf.gcc-9.2.0.rv32i.ilp32.tar.gz)   | `9.2.0` | `rv32i` | `ilp32` |
-| [risc32-unknown-elf.gcc-9.2.0.rv32e.ilp32e.tar.gz](https://github.com/stnolting/riscv_gcc_prebuilt/raw/master/data/risc32-unknown-elf.gcc-9.2.0.rv32e.ilp32e.tar.gz) | `9.2.0` | `rv32e` | `ilp32e` 
+| [riscv32-unknown-elf.gcc-9.2.0.rv32i.ilp32.tar.gz](https://github.com/stnolting/riscv_gcc_prebuilt/raw/master/data/riscv32-unknown-elf.gcc-9.2.0.rv32i.ilp32.tar.gz)   | `9.2.0` | `rv32i` | `ilp32` |
+| [riscv32-unknown-elf.gcc-9.2.0.rv32e.ilp32e.tar.gz](https://github.com/stnolting/riscv_gcc_prebuilt/raw/master/data/riscv32-unknown-elf.gcc-9.2.0.rv32e.ilp32e.tar.gz) | `9.2.0` | `rv32e` | `ilp32e` 
 
 *) The links will take a moment to launch.
 
