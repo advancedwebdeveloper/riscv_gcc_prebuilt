@@ -36,7 +36,7 @@ Test the toolchain:
     $ riscv32-unknown-elf-gcc -v
 
 
-### Continous integration
+### Continous Integration
 
-Continuous integration provided by [Travis CI](https://travis-ci.com/stnolting/riscv_gcc_prebuilt). The CI job does _not_ build the toolchains - it just tests them.
+Continuous integration provided by [Travis CI](https://travis-ci.com/stnolting/riscv_gcc_prebuilt). NOTE: The CI job does _not_ build the toolchains - it just tests them.
 
