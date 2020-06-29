@@ -1,0 +1,14 @@
+dist: bionic
+
+services:
+  - docker
+
+script:
+
+  # Just TEST the available toolchain versions
+  - /bin/bash -c "chmod u+x .ci/test.sh && .ci/test.sh"
+
+notifications:
+  email:
+    on_success: never
+    on_failure: always
