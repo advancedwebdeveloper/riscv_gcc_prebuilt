@@ -9,13 +9,14 @@ TOOLCHAIN=riscv32-unknown-elf
 
 # Decompress and test
 TEST=riscv32-unknown-elf.gcc-9.2.0.rv32i.ilp32
-echo "Testing $TEST/$TOOLCHAIN..."
-rm -rf $TEST && mkdir $TEST
-tar -xzf data/$TEST.tar.gz -C $TEST/
-./$TEST/bin/$TOOLCHAIN-gcc -v
+echo "" & echo "Testing $TEST/$TOOLCHAIN..."
+rm -rf $TEST && mkdir $TEST.tmp
+tar -xzf data/$TEST.tar.gz -C $TEST.tmp/
+./$TEST.tmp/bin/$TOOLCHAIN-gcc -v
 
 TEST=riscv32-unknown-elf.gcc-9.2.0.rv32e.ilp32e
-echo "Testing $TEST/$TOOLCHAIN..."
-rm -rf $TEST && mkdir $TEST
-tar -xzf data/$TEST.tar.gz -C $TEST/
-./$TEST/bin/$TOOLCHAIN-gcc -v
+echo "" & echo "Testing $TEST/$TOOLCHAIN..."
+rm -rf $TEST && mkdir $TEST.tmp
+tar -xzf data/$TEST.tar.gz -C $TEST.tmp/
+./$TEST.tmp/bin/$TOOLCHAIN-gcc -v
+
