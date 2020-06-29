@@ -1,5 +1,6 @@
 # riscv_gcc_prebuilt
 
+[![Build Test](https://travis-ci.com/stnolting/riscv_gcc_prebuilt.svg?branch=master)](https://travis-ci.com/stnolting/riscv_gcc_prebuilt)
 [![license](https://img.shields.io/github/license/stnolting/riscv_gcc_prebuilt)](https://github.com/stnolting/riscv_gcc_prebuilt/blob/master/LICENSE)
 [![issues](https://img.shields.io/github/issues/stnolting/riscv_gcc_prebuilt)](https://github.com/stnolting/riscv_gcc_prebuilt/issues)
 
@@ -33,3 +34,9 @@ Then add the toolchain's `bin` folder to your system's `PATH` environment variab
 Test the toolchain:
 
     $ riscv32-unknown-elf-gcc -v
+
+
+### Continous integration
+
+Continuous integration provided by [Travis CI](https://travis-ci.com/stnolting/riscv_gcc_prebuilt). The CI job does _not_ build the toolchains - it just tests them.
+
