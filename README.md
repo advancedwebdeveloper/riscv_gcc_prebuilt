@@ -2,7 +2,6 @@
 
 [![Build Test](https://travis-ci.com/stnolting/riscv_gcc_prebuilt.svg?branch=master)](https://travis-ci.com/stnolting/riscv_gcc_prebuilt)
 [![license](https://img.shields.io/github/license/stnolting/riscv_gcc_prebuilt)](https://github.com/stnolting/riscv_gcc_prebuilt/blob/master/LICENSE)
-[![issues](https://img.shields.io/github/issues/stnolting/riscv_gcc_prebuilt)](https://github.com/stnolting/riscv_gcc_prebuilt/issues)
 
 Prebuilt RISC-V GCC toolchains: `riscv32-unknown-elf`
 
@@ -20,8 +19,8 @@ These prebuilt toolchains are used by the [NEORV32 Processor](https://github.com
 
 | File (will take a moment to start) | Note |GCC  | march | mabi | clib |
 |:-----------------------------------|:----:|:---:|:-----:|:----:|:----:|
-| [riscv32-unknown-elf.gcc-9.2.0.rv32i.ilp32.tar.gz](https://github.com/stnolting/riscv_gcc_prebuilt/raw/master/data/riscv32-unknown-elf.gcc-9.2.0.rv32i.ilp32.tar.gz)   | - | `9.2.0` | `rv32i` | `ilp32`  |  |
-| [riscv32-unknown-elf.gcc-9.2.0.rv32e.ilp32e.tar.gz](https://github.com/stnolting/riscv_gcc_prebuilt/raw/master/data/riscv32-unknown-elf.gcc-9.2.0.rv32e.ilp32e.tar.gz) | - | `9.2.0` | `rv32e` | `ilp32e` |  |
+| [riscv32-unknown-elf.gcc-9.2.0.rv32i.ilp32.tar.gz](https://github.com/stnolting/riscv_gcc_prebuilt/raw/master/data/riscv32-unknown-elf.gcc-9.2.0.rv32i.ilp32.tar.gz)   | - | `9.2.0` | `rv32i` | `ilp32`  | _TBA_ |
+| [riscv32-unknown-elf.gcc-9.2.0.rv32e.ilp32e.tar.gz](https://github.com/stnolting/riscv_gcc_prebuilt/raw/master/data/riscv32-unknown-elf.gcc-9.2.0.rv32e.ilp32e.tar.gz) | - | `9.2.0` | `rv32e` | `ilp32e` | _TBA_ |
 
 
 ### Installation
@@ -36,7 +35,7 @@ Test the toolchain:
     $ riscv32-unknown-elf-gcc -v
 
 
-### Continous Integration
+#### Continous Integration
 
 Continuous integration provided by [Travis CI](https://travis-ci.com/stnolting/riscv_gcc_prebuilt). NOTE: The CI job does _not_ build the toolchains - it just tests them.
 
