@@ -5,7 +5,7 @@
 
 Prebuilt RISC-V GCC toolchains: `riscv32-unknown-elf`
 
-The toolchains were build according to the instructions on the [official RISC-V GNU Compiler Toolchain page](https://github.com/riscv/riscv-gnu-toolchain)
+The toolchains were built according to the instructions on the [official RISC-V GNU Compiler Toolchain page](https://github.com/riscv/riscv-gnu-toolchain)
 using **Ubuntu 20.04 LTS** on a **64-bit x86 machine** (actually on Ubuntu on Windows). The compressed toolchains are located in
 the [`data`](https://github.com/stnolting/riscv_gcc_prebuilt/tree/master/data) folder.
 
@@ -35,7 +35,14 @@ Test the toolchain:
     $ riscv32-unknown-elf-gcc -v
 
 
-#### Continous Integration
+
+### License
+
+This is project is released under the GPL-3.0 license. No copyright infringement intended.
+Other implied or used projects might have different licensing - see their documentation to get more information.
+
+
+### Acknowledgement
 
 Continuous integration provided by [Travis CI](https://travis-ci.com/stnolting/riscv_gcc_prebuilt). NOTE: The CI job does _not_ build the toolchains - it just tests them.
 
