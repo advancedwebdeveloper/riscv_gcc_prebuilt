@@ -19,8 +19,8 @@ These prebuilt toolchains are used by the [NEORV32 Processor](https://github.com
 
 | File (will take a moment to start) | Note |GCC  | march | mabi | clib |
 |:-----------------------------------|:----:|:---:|:-----:|:----:|:----:|
-| [riscv32-unknown-elf.gcc-9.2.0.rv32i.ilp32.tar.gz](https://github.com/stnolting/riscv_gcc_prebuilt/raw/master/data/riscv32-unknown-elf.gcc-9.2.0.rv32i.ilp32.tar.gz)   | - | `9.2.0` | `rv32i` | `ilp32`  | _TBA_ |
-| [riscv32-unknown-elf.gcc-9.2.0.rv32e.ilp32e.tar.gz](https://github.com/stnolting/riscv_gcc_prebuilt/raw/master/data/riscv32-unknown-elf.gcc-9.2.0.rv32e.ilp32e.tar.gz) | - | `9.2.0` | `rv32e` | `ilp32e` | _TBA_ |
+| [riscv32-unknown-elf.gcc-9.2.0.rv32i.ilp32.tar.gz](https://github.com/stnolting/riscv_gcc_prebuilt/raw/master/data/riscv32-unknown-elf.gcc-9.2.0.rv32i.ilp32.tar.gz)   | - | `9.2.0` | `rv32i` | `ilp32`  | newlib |
+| [riscv32-unknown-elf.gcc-9.2.0.rv32e.ilp32e.tar.gz](https://github.com/stnolting/riscv_gcc_prebuilt/raw/master/data/riscv32-unknown-elf.gcc-9.2.0.rv32e.ilp32e.tar.gz) | - | `9.2.0` | `rv32e` | `ilp32e` | newlib |
 
 
 ### Installation
