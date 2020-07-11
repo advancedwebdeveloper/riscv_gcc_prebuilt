@@ -38,7 +38,7 @@ Test the toolchain:
 
 ### License
 
-This is project is released under the GPL-3.0 license. No copyright infringement intended.
+This project is released under the GPL-3.0 license. No copyright infringement intended.
 Other implied or used projects might have different licensing - see their documentation to get more information.
 
 
