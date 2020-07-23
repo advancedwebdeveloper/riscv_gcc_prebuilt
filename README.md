@@ -9,18 +9,16 @@ The toolchains were built according to the instructions on the [official RISC-V 
 using **Ubuntu 20.04 LTS** on a **64-bit x86 machine** (actually on Ubuntu on Windows). The compressed toolchains are located in
 the [`data`](https://github.com/stnolting/riscv_gcc_prebuilt/tree/master/data) folder.
 
-All toolchains support CPU extensions like `C` (compressed instructions) and `M` (hardware multiplier and divider).
-
 These prebuilt toolchains are used by the [NEORV32 Processor](https://github.com/stnolting/neorv32) project.
 
 
 
 ## Available Toolchains
 
-| File (will take a moment to start) | Note |GCC  | march | mabi | clib |
-|:-----------------------------------|:----:|:---:|:-----:|:----:|:----:|
-| [riscv32-unknown-elf.gcc-9.2.0.rv32i.ilp32.tar.gz](https://github.com/stnolting/riscv_gcc_prebuilt/raw/master/data/riscv32-unknown-elf.gcc-9.2.0.rv32i.ilp32.tar.gz)   | - | `9.2.0` | `rv32i` | `ilp32`  | newlib |
-| [riscv32-unknown-elf.gcc-9.2.0.rv32e.ilp32e.tar.gz](https://github.com/stnolting/riscv_gcc_prebuilt/raw/master/data/riscv32-unknown-elf.gcc-9.2.0.rv32e.ilp32e.tar.gz) | - | `9.2.0` | `rv32e` | `ilp32e` | newlib |
+| File (will take a moment to start) |GCC  | march | mabi | lib |
+|:-----------------------------------|:---:|:-----:|:----:|:---:|
+| [riscv32-unknown-elf.gcc-10.1.0.rv32gc.ilp32.newlib.tar.gz](https://github.com/stnolting/riscv_gcc_prebuilt/raw/master/data/riscv32-unknown-elf.gcc-10.1.0.rv32gc.ilp32.newlib.tar.gz) | `10.1.0` | `rv32gc` | `ilp32` | newlib |
+| [riscv32-unknown-elf.gcc-10.1.0.rv32e.ilp32e.newlib.tar.gz](https://github.com/stnolting/riscv_gcc_prebuilt/raw/master/data/riscv32-unknown-elf.gcc-10.1.0.rv32e.ilp32e.newlib.tar.gz) | `10.1.0` | `rv32e` | `ilp32e` | newlib |
 
 
 ### Installation

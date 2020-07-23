@@ -9,7 +9,7 @@ TOOLCHAIN=riscv32-unknown-elf
 # Decompress and test
 echo ""
 
-TEST=riscv32-unknown-elf.gcc-9.2.0.rv32i.ilp32
+TEST=riscv32-unknown-elf.gcc-10.1.0.rv32gc.ilp32.newlib
 echo "Testing $TEST/$TOOLCHAIN..."
 rm -rf $TEST.tmp && mkdir $TEST.tmp
 tar -xzf data/$TEST.tar.gz -C $TEST.tmp/
@@ -17,7 +17,7 @@ tar -xzf data/$TEST.tar.gz -C $TEST.tmp/
 
 echo ""
 
-TEST=riscv32-unknown-elf.gcc-9.2.0.rv32e.ilp32e
+TEST=riscv32-unknown-elf.gcc-10.1.0.rv32e.ilp32e.newlib
 echo "Testing $TEST/$TOOLCHAIN..."
 rm -rf $TEST.tmp && mkdir $TEST.tmp
 tar -xzf data/$TEST.tar.gz -C $TEST.tmp/
