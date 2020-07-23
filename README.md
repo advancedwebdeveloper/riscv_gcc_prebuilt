@@ -9,6 +9,8 @@ The toolchains were built according to the instructions on the [official RISC-V 
 using **Ubuntu 20.04 LTS** on a **64-bit x86 machine** (actually on Ubuntu on Windows). The compressed toolchains are located in
 the [`data`](https://github.com/stnolting/riscv_gcc_prebuilt/tree/master/data) folder.
 
+All toolchains support standard CPU extensions like `C` (compressed instructions) and `M` (hardware multiplier and divider).
+
 These prebuilt toolchains are used by the [NEORV32 Processor](https://github.com/stnolting/neorv32) project.
 
 
