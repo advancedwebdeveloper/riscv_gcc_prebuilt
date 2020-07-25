@@ -19,8 +19,11 @@ These prebuilt toolchains are used by the [NEORV32 Processor](https://github.com
 
 | File (will take a moment to start) |GCC  | march | mabi | lib |
 |:-----------------------------------|:---:|:-----:|:----:|:---:|
-| [riscv32-unknown-elf.gcc-10.1.0.rv32gc.ilp32.newlib.tar.gz](https://github.com/stnolting/riscv_gcc_prebuilt/raw/master/data/riscv32-unknown-elf.gcc-10.1.0.rv32gc.ilp32.newlib.tar.gz) | `10.1.0` | `rv32gc` | `ilp32` | newlib |
+| [riscv32-unknown-elf.gcc-10.1.0.rv32i.ilp32.newlib.tar.gz](https://github.com/stnolting/riscv_gcc_prebuilt/raw/master/data/riscv32-unknown-elf.gcc-10.1.0.rv32i.ilp32.newlib.tar.gz)   | `10.1.0` | `rv32i` | `ilp32`  | newlib |
 | [riscv32-unknown-elf.gcc-10.1.0.rv32e.ilp32e.newlib.tar.gz](https://github.com/stnolting/riscv_gcc_prebuilt/raw/master/data/riscv32-unknown-elf.gcc-10.1.0.rv32e.ilp32e.newlib.tar.gz) | `10.1.0` | `rv32e` | `ilp32e` | newlib |
+
+:warning: Keep in mind that – for instance – a `rv32imc` toolchain only provides library code compiled with compressed and
+`mul`/`div` instructions! Hence, this code cannot be executed (without emulation) on an architecture without these extensions!
 
 
 ### Installation
