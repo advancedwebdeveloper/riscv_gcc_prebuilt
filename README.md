@@ -28,8 +28,18 @@ These prebuilt toolchains are used by the [NEORV32 Processor](https://github.com
 
 ### Installation
 
-Download the archive of choice, unpack it (for example using `tar -xzf`) and place the content into a folder on your system (like `/opt/riscv`).
-Then add the toolchain's `bin` folder to your system's `PATH` environment variable (or add this line to your `.bashrc` if applicable):
+Download the archive of choice from the [`data`](https://github.com/stnolting/riscv_gcc_prebuilt/tree/master/data) folder or the whole repository
+using `git clone`.
+
+Create a folder where you want to install the toolchain, for example `/opt/riscv` (you will need `sudo` rights to create this folder and copy data to it).
+
+    $ sudo mkdir /opt/riscv
+
+Decompress your toolchain (replace *TOOLCHAIN* with your toolchain of choice). Again, you might have to use `sudo` to copy everything if your target directory is protected.
+
+    $ sudo tar -xzf data/TOOLCHAIN.tar.gz -C /opt/riscv/
+
+Now add the toolchain's `bin` folder to your system's `PATH` environment variable (or add this line to your `.bashrc` if applicable):
 
     $ export PATH=$PATH:/opt/riscv/bin
 
