@@ -31,13 +31,20 @@ These prebuilt toolchains are used by the [NEORV32 Processor](https://github.com
 Download the archive of choice from the [`data`](https://github.com/stnolting/riscv_gcc_prebuilt/tree/master/data) folder or the whole repository
 using `git clone`.
 
+**Attention!** This repository uses [`git lfs` (large file storage)](https://git-lfs.github.com/) for the compressed toolchain archives. Make sure
+`git lfs` is installed when using `git clone` for downloading the repository.
+
+Alternatively you can use `wget` to download an archive (replace *TOOLCHAIN* with your toolchain of choice):
+
+    $ wget https://github.com/stnolting/riscv_gcc_prebuilt/raw/master/data/TOOLCHAIN.tar.gz
+
 Create a folder where you want to install the toolchain, for example `/opt/riscv` (you will need `sudo` rights to create this folder and copy data to it).
 
     $ sudo mkdir /opt/riscv
 
 Decompress your toolchain (replace *TOOLCHAIN* with your toolchain of choice). Again, you might have to use `sudo` to copy everything if your target directory is protected.
 
-    $ sudo tar -xzf data/TOOLCHAIN.tar.gz -C /opt/riscv/
+    $ sudo tar -xzf riscv_gcc_prebuilt/data/TOOLCHAIN.tar.gz -C /opt/riscv/
 
 Now add the toolchain's `bin` folder to your system's `PATH` environment variable (or add this line to your `.bashrc` if applicable):
 
