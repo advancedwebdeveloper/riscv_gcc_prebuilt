@@ -26,17 +26,21 @@ These prebuilt toolchains are used by the [NEORV32 Processor](https://github.com
 `mul`/`div` instructions! Hence, this code cannot be executed (without emulation) on an architecture without these extensions!
 
 
-### Installation
+## Downloading
 
 Download the archive of choice from the [`data`](https://github.com/stnolting/riscv_gcc_prebuilt/tree/master/data) folder or the whole repository
 using `git clone`.
 
-**Attention!** This repository uses [`git lfs` (large file storage)](https://git-lfs.github.com/) for the compressed toolchain archives. Make sure
+:warning: This repository uses [`git lfs` (large file storage)](https://git-lfs.github.com/) for the compressed toolchain archives. Make sure
 `git lfs` is installed when using `git clone` for downloading the repository.
 
-Alternatively you can use `wget` to download an archive (replace *TOOLCHAIN* with your toolchain of choice):
+If you have problems downloading the archives, you can either download a packed snapshot of the repository as a
+[release](https://github.com/stnolting/riscv_gcc_prebuilt/releases) or you can use `wget` (replace *TOOLCHAIN* with your toolchain of choice):
 
     $ wget https://github.com/stnolting/riscv_gcc_prebuilt/raw/master/data/TOOLCHAIN.tar.gz
+
+
+## Installation
 
 Create a folder where you want to install the toolchain, for example `/opt/riscv` (you will need `sudo` rights to create this folder and copy data to it).
 
