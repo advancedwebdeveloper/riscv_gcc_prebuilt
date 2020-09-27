@@ -59,6 +59,14 @@ Test the toolchain:
     $ riscv32-unknown-elf-gcc -v
 
 
+## Required Shared Libraries
+
+```
+$ ldd /opt/riscv32i/bin/riscv32-unknown-elf-gcc
+    linux-vdso.so.1 (0x00007fffcf161000)
+    libc.so.6 => /lib/x86_64-linux-gnu/libc.so.6 (0x00007f8250ff0000)
+    /lib64/ld-linux-x86-64.so.2 (0x00007f8251206000)
+```
 
 ### License
 
